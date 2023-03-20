@@ -39,14 +39,17 @@ function signIn(event) {
    if(usernameValue.length===0 || usernameValue.indexOf("@")===-1 || usernameValue.indexOf(".")===-1){
       usernameMsg.innerText="Please enter a valid email";
       ifSendData=false;
+      signinMsg.innerText="";
    }
 
    if(passwordValue.length===0){
       passwordMsg.innerText="Please enter your password"
       ifSendData=false;
+      signinMsg.innerText="";
    }else if (passwordValue.length <= 5){
       passwordMsg.innerText="Your password is too short";
       ifSendData=false;
+      signinMsg.innerText="";
    }
 
    if(ifSendData){
