@@ -97,7 +97,7 @@
     padding: 15px 10px 15px 5px;
 }
 .username, .password{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     box-shadow: 8px 8px 8px #cbced1,
     -8px -5px 8px #ffffff;
     border-radius: 25px;
@@ -166,5 +166,21 @@
     color: #aaa;
     font-size: 15px;
 }
-
+.username-msg , .password-msg{
+   color: #bb0404;
+   display: inline-block;
+   font-weight: .3rem;
+   height: 25px;
+   margin: 4px auto 5px;
+}
+.signin-msg{
+   color: #19801e;
+   margin: 10px auto 10px;
+   display: inline-block;
+   transform: translateX(40%);
+   -webkit-transform: translateX(40%);
+   -moz-transform: translateX(40%);
+   -ms-transform: translateX(40%);
+   -o-transform: translateX(40%);
+}
 
